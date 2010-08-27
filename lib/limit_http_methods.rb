@@ -14,7 +14,7 @@ module LimitHttpMethods
   #
   def limit_http_methods(hash = {})
     options = {
-      :methods => ['CONNECT', 'OPTIONS', 'PATCH', 'PROPFIND', 'PROPPATCH', 'MKCOL', 'COPY', 'MOVE', 'LOCK', 'UNLOCK']
+      :methods => ['CONNECT', 'PATCH', 'PROPFIND', 'PROPPATCH', 'MKCOL', 'COPY', 'MOVE', 'LOCK', 'UNLOCK']
     }.merge(hash)
 
     previous_extra = configuration[:passenger][:vhost_extra] || ''

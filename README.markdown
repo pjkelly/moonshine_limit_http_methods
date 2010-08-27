@@ -5,7 +5,6 @@
 A plugin for limiting the HTTP methods Apache will allow.  By default, it denies requests using the following methods.
 
 * `CONNECT`
-* `OPTIONS`
 * `PATCH`
 * `PROPFIND`
 * `PROPPATCH`
@@ -14,6 +13,15 @@ A plugin for limiting the HTTP methods Apache will allow.  By default, it denies
 * `MOVE`
 * `LOCK`
 * `UNLOCK`
+
+The means the following HTTP methods are allowed:
+
+* `GET`
+* `HEAD`
+* `PUT`
+* `POST`
+* `DELETE`
+* `OPTIONS`
 
 If you want to specify a different list, configure as specified below.
 
