@@ -19,7 +19,9 @@ If you want to specify a different list, configure as specified below.
 
 ## Instructions
 
-* `script/plugin install git://github.com/pjkelly/moonshine_limit_http_methods.git`
+* Install the plugin:
+
+    `script/plugin install git://github.com/pjkelly/moonshine_limit_http_methods.git`
 * Configure settings (if needed):
 
     `configure(:limit_http_methods => {:methods => ['PUT', 'DELETE']})`
